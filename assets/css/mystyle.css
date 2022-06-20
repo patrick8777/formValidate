@@ -1,0 +1,45 @@
+body{
+    background-image: url("../img/background.gif");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+}
+
+.container{
+   /*  background: orange; */
+    padding-bottom: 5%;
+    
+}
+h1{
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#btn-submit{
+    float: right;
+    
+}
+
+.inner-border{
+    border-style: solid;
+    border-radius: 10px;
+}
+
+input.fehlerhaft{
+    border-color: red;
+    border-width: medium;
+}
+
+span{
+    color: red;
+}
+
+.is-invalid{ 
+    border: 2px solid red;
+    border-radius: 2px;}
+
+.invalid-feedback{
+    font-size: 0.8em;
+    font-style: italic;} 
